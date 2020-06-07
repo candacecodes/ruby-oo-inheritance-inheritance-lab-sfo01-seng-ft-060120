@@ -1,4 +1,5 @@
 class Student < User 
-  def new 
+  def initialize(knowledge)
+    @knowledge = knowledge 
     
 end
